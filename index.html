@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title> Generative Stuff </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div id = "controls">
+        <button id="randomizeButton">Random!</button>
+        <div>
+            <input id="spread" type="range" min="-0.3" max="3.1" step="0.3" value="1">
+            <label for="spread">Spread: </label>
+        </div>
+        <div>
+            <input id="sides" type="range" min="2" max="22" step="1" value="5">
+            <label for="spread">Sides: </label>
+        </div>
+        <button id="resetButton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
